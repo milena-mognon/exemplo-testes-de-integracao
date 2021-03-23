@@ -10,7 +10,7 @@
 
 1. Crie um container para o banco de dados usando docker
 
-   `docker run --name projeto-gdi -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres`
+   `docker run --name teste -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres`
 
 2. Crie uma base de dados do Postgres;
 3. No arquivo **.env.test** modifique as credenciais (host, database, user, password);
